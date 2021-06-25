@@ -1,7 +1,7 @@
 {
     "name": "rouicons",
     "version": "0.0.10",
-    "private": true,
+    "private": false,
     "main": "./lib/index.js",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
