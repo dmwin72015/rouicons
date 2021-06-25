@@ -44,6 +44,10 @@ function buildLib() {
             gulpSvgr({
                 svgr: {
                     icon: true,
+                    svgoConfig,
+                    svgProps: {
+                        fill: 'currentColor',
+                    },
                     plugins: ['@svgr/plugin-svgo', '@svgr/plugin-jsx'],
                 },
                 createIndex: 'index.js',
